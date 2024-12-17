@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #E8D3A6;
+    color: #333;
+}
+
+header {
+    background-color: #31462c;
+    color: #ddad28;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.grid-header{
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    transition: ease 1s;
+    background-color: #31462c;
+    border: solid 1px #31462c;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+    margin: 20px;
+}
+
+
+.section {
+    flex: 70%;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.aside {
+    
+    background-color: #31462c;
+    padding: 2.5em;
+    border-radius: 8px;
+}
+
+aside h2 {
+    margin-bottom: 20px;
+    color: #ddad28;
+    text-align: center; 
+}
+
+aside ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+aside ul li{
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+aside ul li a:hover {
+    color: #FFD700;
+    transition: color 0.4s;
+    background-color: #273822;
+}
+aside ul li a:hover {
+    transition: ease 1s;
+    background-color: #31462c;
+    border: solid 1px #31462c;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
+.content{
+    padding: 20px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.section2 .imgSolo{
+    gap: 20px;
+    width: 30em;
+    height: 30em;
+    margin: 20px;
+    border-radius: 8px;
+    border: 10px solid #31462c;
+}
+
+.button{
+    color: #fff;
+    background-color: #31462c;
+    padding: 8px;
+    margin-top: 2em;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+}
+
+.button p{
+    font-size: medium;
+}
+
+.button:hover{
+    color: #FFD700;
+    background-color: #2b3d27;
+    transform: scale(1);
+    transition: ease 0.3s;
+}
+
+.grid-content{
+    display: grid;
+    columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+footer {
+    background-color: #31462c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
